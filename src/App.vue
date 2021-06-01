@@ -1,10 +1,16 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <layout-header />
   <router-view />
 </template>
+
+<script>
+import LayoutHeader from "./components/layout/LayoutHeader.vue";
+export default {
+  components: {
+    LayoutHeader,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
