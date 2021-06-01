@@ -2,7 +2,7 @@
 
 it's a letter visualizer, that takes your letters and turn them into aniamted svg
 
-#### you can only use English alphapet, and(^) for the new line
+#### you can only use English alphabet, and(^) for the new line
 
 # myvueprojects
 
